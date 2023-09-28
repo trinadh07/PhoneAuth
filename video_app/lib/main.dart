@@ -41,6 +41,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyPhone(),
+      routes: {
+        'welcome': (context) => Welcome(), // Replace 'WelcomePage' with the actual widget for your welcome page.
+        // Other route definitions here.
+      },
     );
   }
 }
